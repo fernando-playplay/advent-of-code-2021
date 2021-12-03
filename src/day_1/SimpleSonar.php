@@ -10,9 +10,9 @@ namespace App\day_1;
  * - Each line is an integer value
  * - Count the number of times a value has increased relative to the precedent value
  */
-class SonarSweep
+class SimpleSonar
 {
-    public function getIncrementsFromArray(array $values): int
+    public function scanIncrementsFromArray(array $values): int
     {
         $numberOfIncrements = 0;
         $valuesLength = count($values);
@@ -29,7 +29,7 @@ class SonarSweep
         return $numberOfIncrements;
     }
 
-    public function getIncrementsFromFile(string $filename): int
+    public function scanIncrementsFromFile(string $filename): int
     {
         $handle = @fopen(__DIR__ . "/../data/$filename", 'r');
         if (!$handle) {
