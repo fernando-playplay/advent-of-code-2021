@@ -1,0 +1,26 @@
+{
+    "name": "fernando-playplay/advent-of-code-2021",
+    "description": "Solving the 2021 advent of code with a TDD approach",
+    "type": "project",
+    "license": "WTFPL",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fernando-playplay",
+            "email": "fernando-contractor@playplay.com"
+        }
+    ],
+    "require": {}
+}
