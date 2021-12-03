@@ -6,5 +6,5 @@ Advent of Code is an Advent calendar of small programming puzzles for a variety 
 
 # TDD
 
-I'll try to solve this year's advent of code with a TDD approach using PHP :raised_hands: 
+I'll try to solve this year's advent of code trying a TDD approach just for fun using PHP :raised_hands:
 
