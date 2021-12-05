@@ -5,7 +5,7 @@ namespace App\day_2;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @deprecated 
+ * @deprecated
  */
 class NavigationSystemTest extends TestCase
 {

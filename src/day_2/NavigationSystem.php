@@ -17,12 +17,12 @@ namespace App\day_2;
  */
 class NavigationSystem
 {
-    private const DIRECTION_FORWARD = 'forward';
-    private const DIRECTION_DOWN = 'down';
-    private const DIRECTION_UP = 'up';
+    protected const DIRECTION_FORWARD = 'forward';
+    protected const DIRECTION_DOWN = 'down';
+    protected const DIRECTION_UP = 'up';
 
-    private int $horizontalPosition;
-    private int $depth;
+    protected int $horizontalPosition;
+    protected int $depth;
 
     public function __construct()
     {
