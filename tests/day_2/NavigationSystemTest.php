@@ -1,6 +1,8 @@
 <?php
 
-namespace App\day_2;
+declare(strict_types=1);
+
+namespace Tests\day_2;
 
 use PHPUnit\Framework\TestCase;
 

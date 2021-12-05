@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\day_2;
+namespace Tests\day_2;
 
 use PHPUnit\Framework\TestCase;
 
