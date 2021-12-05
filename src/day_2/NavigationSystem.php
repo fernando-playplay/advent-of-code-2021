@@ -12,6 +12,8 @@ namespace App\day_2;
  * - Moving "down" increases the depth position
  * - Moving "up" decreases the depth position
  * - When moving multiple steps at a time, the final position is the multiplication of both values.
+ *
+ * @deprecated use the class EnhancedNavigationSystem instead.
  */
 class NavigationSystem
 {
